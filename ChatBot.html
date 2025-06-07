@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlipBasket FAQ Chatbot</title>
+  <link rel="stylesheet" href="CBstyle.css" />
+  <script src="https://unpkg.com/compromise"></script>
+</head>
+<body>
+  <div class="chatbox">
+    <div style="float: right; font-weight: bold; font-size: 20px; color: #2e86de; margin-bottom: 10px;">Flip<span style='color:#1b4f72;'>Basket</span></div>
+    <h2>🤖 FlipBasket FAQ</h2>
+    <p class="trivia">This chatbot is developed and maintained by FlipBasket, our in-house intelligent assistant to help users with frequently asked questions related to our e-commerce platform.</p>
+    <div class="chatlog" id="chatlog"></div>
+    <input type="text" id="userInput" placeholder="Ask a question..." />
+    <button onclick="handleChat()">Send</button>
+  </div>
+  <script src="CBscript.js"></script>
+</body>
+</html>
+<script>
